@@ -1,0 +1,128 @@
+.contact__container {
+  grid-template-columns: 1fr; /* Single column layout */
+  justify-content: center;
+  padding-bottom: 3rem;
+}
+
+.contact__content {
+  display: flex;
+  flex-direction: column; /* Ensures title is above the contact info */
+  justify-content: center;
+  align-items: center;
+  width: 500px; /* Adjust the width */
+  margin: 0 auto; /* Center the content horizontally */
+}
+
+.contact__title {
+  text-align: center;
+  font-size: var(--h3-font-size);
+  font-weight: var(--font-medium);
+  margin-bottom: var(--mb-1-5);
+}
+
+.contact__info {
+  display: grid;
+  row-gap: 1rem;
+  grid-template-columns: 1fr;
+  justify-content: center;
+  width: 100%;
+}
+
+.contact__card {
+  background-color: var(--container-color);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  border-radius: 0.75rem;
+  text-align: center;
+}
+
+.contact__card-icon {
+  font-size: 2rem;
+  color: var(--title-color);
+  margin-bottom: var(--mb-0-25);
+}
+
+.contact__card-title,
+.contact__card-data {
+  font-size: var(--small-font-size);
+}
+
+.contact__card-title {
+  font-weight: var(--font-medium);
+}
+
+.contact__card-data {
+  display: block;
+  margin-bottom: var(--mb-0-25);
+}
+
+.contact__button {
+  color: var(--text-color);
+  font-size: var(--small-font-size);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 0.25rem;
+}
+
+.contact__button-icon {
+  font-size: 1rem;
+  transition: 0.3s;
+}
+
+.contact__button:hover .contact__button-icon {
+  transform: translate(0.25rem);
+}
+
+/* Specific style for LinkedIn button */
+.contact__linkedin-button {
+  background-color: #ffffff;
+  color: #000000;
+  border: 1px solid #000000;
+}
+
+.contact__linkedin-button:hover {
+  background-color: #ffffff; /* No blue hover effect */
+  color: #000000;
+  border: 1px solid #000000;
+}
+
+.contact__linkedin-link {
+  color: #000000; /* Black color for LinkedIn text */
+  text-decoration: none;
+}
+
+.contact__linkedin-link:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 992px) {
+  .contact__container {
+    column-gap: 3rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .contact__container {
+    grid-template-columns: 1fr;
+    row-gap: 3rem;
+  }
+
+  .contact__info {
+    justify-content: center;
+  }
+
+  .contact__form {
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .contact__info {
+    grid-template-columns: 1fr;
+  }
+
+  .contact__form {
+    width: 100%;
+  }
+}

@@ -1,0 +1,101 @@
+.exp__container {
+  grid-template-columns: 1fr; /* Only one card in the container */
+  justify-content: center;
+  column-gap: 1.8rem;
+}
+
+.exp__content {
+  position: relative;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: var(--container-color);
+  padding: 3rem 2.5rem; /* Adjusted padding for better layout */
+  width: 80%; /* Set the width to a larger size (80%) */
+  max-width: 800px; /* Max width for the card */
+  margin: 0 auto; /* Center the card horizontally */
+  text-align: center; /* Centering content */
+  border-radius: 10px; /* Rounded corners for the card */
+}
+
+.exp__icon {
+  display: block;
+  font-size: 3rem; /* Increased icon size */
+  color: var(--title-color);
+  margin-bottom: 1rem;
+}
+.exp__title {
+  font-weight: bold;
+  width: 100%;
+  margin-bottom: 1rem;
+  color: var(--title-color); /* Ensure the title color is prominent */
+  white-space: nowrap; /* Prevent the title from wrapping into multiple lines */
+  overflow: visible; /* Allow the title to expand if necessary */
+  text-align: center; /* Ensure the title is centered within the container */
+  display: inline-block; /* Make sure the title respects the width of the container */
+}
+
+.exp__description {
+  font-size: 1.125rem; /* Slightly larger description text */
+  color: var(--text-color); /* Color for the details */
+  line-height: 1.6; /* Better readability with line-height */
+  text-align: justify; /* Justify the paragraph text */
+  margin-bottom: 1.5rem; /* Space between description and any additional content */
+}
+
+.exp__button {
+  color: var(--title-color);
+  font-size: 1rem;
+  display: inline-flex;
+  align-items: center;
+  column-gap: 0.25rem;
+  cursor: pointer;
+  justify-content: center; /* Centering the button */
+  text-align: center; /* Ensure text is centered in button */
+}
+
+.exp__button-icon {
+  font-size: 1.2rem;
+  transition: 0.3s;
+}
+
+.exp__button:hover .exp__button-icon {
+  transform: translateX(0.25rem);
+}
+
+@media screen and (max-width: 992px) {
+  .exp__container {
+    grid-template-columns: 1fr; /* Keep only one card for smaller screens */
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .exp__content {
+    padding: 2.5rem 2rem;
+
+    max-width: 600px;
+  }
+
+  .exp__icon {
+    font-size: 2.5rem;
+  }
+  .exp__title {
+    margin-left: -10px;
+    font-size: 25px; /* Further reduce title size on smaller screens */
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .exp__content {
+    padding: 2rem 1.5rem;
+  }
+
+  .exp__icon {
+    font-size: 2rem;
+  }
+
+  .exp__title {
+    justify-self: start;
+    width: 600px;
+    font-size: 1rem; /* Further reduce title size on smaller screens */
+  }
+}
