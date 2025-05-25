@@ -11,7 +11,7 @@ This site is my individual online portfolio, developed in React. It is an online
 
 ## Live Demo
 
-**[???? View Live Portfolio](https://yuvarajauvs.github.io/Portfolio/)**
+**[ View Live Portfolio](https://yuvarajauvs.github.io/Portfolio/)**
 
 ---
 
