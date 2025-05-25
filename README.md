@@ -10,7 +10,7 @@ This website is my personal online portfolio, which I built using **React** with
 
 ## Live Demo
 
-**[???? View Live Portfolio](https://yuvarajauvs.github.io/Portfolio/)**
+**[ View Live Portfolio](https://yuvarajauvs.github.io/Portfolio/)**
 
 ---
 
