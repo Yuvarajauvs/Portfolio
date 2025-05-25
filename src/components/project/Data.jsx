@@ -11,7 +11,7 @@ export const projectsData = [
     title: "FoodOrder",
     category: "web",
     demoUrl: "https://yuvarajauvs.github.io/FoodBooking/",
-    sourceUrl: "https://yuvarajauvs.github.io/FoodBooking/",
+    sourceUrl: "https://github.com/Yuvarajauvs/FoodBooking",
     status: "completed",
   },
   {
@@ -20,7 +20,7 @@ export const projectsData = [
     title: "BookMyShow",
     category: "web",
     demoUrl: "https://yuvarajauvs.github.io/BookMyShow/",
-    sourceUrl: "https://yuvarajauvs.github.io/BookMyShow/",
+    sourceUrl: "https://github.com/Yuvarajauvs/BookMyShow",
     status: "completed",
   },
   {
