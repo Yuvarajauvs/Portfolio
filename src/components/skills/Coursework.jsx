@@ -80,7 +80,7 @@ const Coursework = () => {
           <div className="skills__data">
             <i className="bx bxl-github"></i>
             <div>
-              <h3 className="skills__name">GitHub</h3>
+              <h3 className="skills__name">Git</h3>
               <span className="skills__level">Basic</span>
             </div>
           </div>
