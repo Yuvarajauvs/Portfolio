@@ -2,7 +2,7 @@ import Work1 from "../../assets/Work1.png";
 import Work2 from "../../assets/Work2.png";
 import FoodOrder from "../../assets/FoodOrder.png";
 import Bookmyshow from "../../assets/Bookmyshow.png";
-import MiniSocial from "../..assets/mini-social.png";
+import MiniSocial from "../..assets/MiniSocial.png";
 // Adjusted import BookMyShow
 //c:\Users\yuvar\OneDrive\Pictures\Screenshots\FoodOrder.png
 export const projectsData = [
