@@ -6,11 +6,9 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer__container container">
-        <h1 className="footer__title">&lt;Yuva/&gt;</h1>
-
         <div className="footer__social">
           <a
-            href="https://www.instagram.com/soumyajiitttt/"
+            href="https://www.instagram.com/yuvaraja.__21/"
             className="footer__social-link"
             target="_blank"
             rel="noopener noreferrer"
@@ -18,7 +16,7 @@ const Footer = () => {
             <i className="bx bxl-instagram"></i>
           </a>
           <a
-            href="https://x.com/Soumyajiitt"
+            href="https://x.com/"
             className="footer__social-link"
             target="_blank"
             rel="noopener noreferrer"
@@ -26,7 +24,7 @@ const Footer = () => {
             <i className="bx bxl-twitter"></i>
           </a>
           <a
-            href="https://github.com/soumyajiitt"
+            href="https://github.com/yuvarajauvs"
             className="footer__social-link"
             target="_blank"
             rel="noopener noreferrer"
@@ -34,7 +32,7 @@ const Footer = () => {
             <i className="bx bxl-github"></i>
           </a>
           <a
-            href="https://www.linkedin.com/in/soumyajitbasak/"
+            href="https://www.linkedin.com/in/a-yuvaraja/"
             className="footer__social-link"
             target="_blank"
             rel="noopener noreferrer"

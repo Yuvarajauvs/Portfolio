@@ -74,41 +74,6 @@ const Coursework = () => {
             </div>
           </div>
         </div>
-
-        {/* Tools Section */}
-        <div className="skills__group">
-          <div className="skills__data">
-            <i className="bx bxl-github"></i>
-            <div>
-              <h3 className="skills__name">GitHub</h3>
-              <span className="skills__level">Basic</span>
-            </div>
-          </div>
-
-          <div className="skills__data">
-            <i className="bx bxl-visual-studio"></i>
-            <div>
-              <h3 className="skills__name">VS Code</h3>
-              <span className="skills__level">Basic</span>
-            </div>
-          </div>
-
-          <div className="skills__data">
-            <i className="bx bxl-intellij"></i>
-            <div>
-              <h3 className="skills__name">IntelliJ IDEA</h3>
-              <span className="skills__level">Basic</span>
-            </div>
-          </div>
-
-          <div className="skills__data">
-            <i className="bx bxl-eclipse"></i>
-            <div>
-              <h3 className="skills__name">Eclipse</h3>
-              <span className="skills__level">Basic</span>
-            </div>
-          </div>
-        </div>
       </div>
     </div>
   );
