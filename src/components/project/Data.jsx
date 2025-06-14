@@ -1,8 +1,7 @@
-import Work1 from "../../assets/Work1.png";
-import Work2 from "../../assets/Work2.png";
 import FoodOrder from "../../assets/FoodOrder.png";
 import Bookmyshow from "../../assets/Bookmyshow.png";
 import MiniSocial from "../../assets/MiniSocial.png";
+import ConsoleBank from "../../assets/ConsoleBank.png";
 // Adjusted import BookMyShow
 //c:\Users\yuvar\OneDrive\Pictures\Screenshots\FoodOrder.png
 export const projectsData = [
@@ -26,7 +25,7 @@ export const projectsData = [
   },
   {
     id: 3,
-    image: Banking,
+    image: ConsoleBank,
     title: "Banking",
     category: "Core Java",
     demoUrl: "https://github.com/Yuvarajauvs/simple-console-based-banking",
