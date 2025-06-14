@@ -2,6 +2,7 @@ import Work1 from "../../assets/Work1.png";
 import Work2 from "../../assets/Work2.png";
 import FoodOrder from "../../assets/FoodOrder.png";
 import Bookmyshow from "../../assets/Bookmyshow.png";
+import MiniSocial from "../..assets/mini-social.png";
 // Adjusted import BookMyShow
 //c:\Users\yuvar\OneDrive\Pictures\Screenshots\FoodOrder.png
 export const projectsData = [
@@ -11,7 +12,7 @@ export const projectsData = [
     title: "FoodOrder",
     category: "web",
     demoUrl: "https://yuvarajauvs.github.io/FoodBooking/",
-    sourceUrl: "https://github.com/Yuvarajauvs/FoodBooking",
+    sourceUrl: "https://yuvarajauvs.github.io/FoodBooking/",
     status: "completed",
   },
   {
@@ -20,7 +21,7 @@ export const projectsData = [
     title: "BookMyShow",
     category: "web",
     demoUrl: "https://yuvarajauvs.github.io/BookMyShow/",
-    sourceUrl: "https://github.com/Yuvarajauvs/BookMyShow",
+    sourceUrl: "https://yuvarajauvs.github.io/BookMyShow/",
     status: "completed",
   },
   {
@@ -29,18 +30,18 @@ export const projectsData = [
     title: "Banking",
     category: "Core Java",
     demoUrl: "https://github.com/Yuvarajauvs/simple-console-based-banking",
-    sourceUrl: "https://github.com/Yuvarajauvs/simple-console-based-banking",
+    sourceUrl: "https://github.com/Yuvarajauvs/Mini-Social-Media-Frontend",
     status: "completed",
-  }, 
-   {
+  },
+  {
     id: 4,
-    image: mini-social-webapplication,
-    title: "mini-social-webapplication",
+    image: MiniSocial,
+    title: "Mini-Social",
     category: "web",
-    demoUrl: "https://github.com/Yuvarajauvs/mini-social-webapp",
-    sourceUrl: "https://github.com/Yuvarajauvs/mini-social-webapp",
-    status: "Not completed",
-  }, 
+    demoUrl: "https://yuvarajauvs.github.io/Post",
+    sourceUrl: "https://github.com/Yuvarajauvs/Mini-Social-Media-Frontend",
+    status: "completed",
+  },
 ];
 
 export const projectsNav = [
